@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js"></script>
+    <title>🎥Catalogo Peliculas🎬</title>
+</head>
+<body>
+    <h1>🎞¡Bienvenidos al cine !🚬</h1>
+    <h3>Menú</h3>
+    <p>Queremos hacer de tu visita, una experiencia más placentera. Para eso ingresa tu edad y seleccione el género 
+    que más te guste y te recomendamos tu pelicula ideal</p>
+    <p>Edad: <input type="text" id="edad"></p>
+    <button onclick="recomendar('drama')">Drama</button>
+    <button onclick="recomendar('comedia')">Comedia</button>
+    <button onclick="recomendar('musical')">Musical</button>
+    <button onclick="recomendar('crimen')">Crimen</button>
+    <h3>Nuestra recomendación:</h3>
+    <h2 id="recomendacion"></h2>
+</body>
+</html>
